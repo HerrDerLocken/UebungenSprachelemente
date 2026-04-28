@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="UebungenSprachelemente:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/UebungenSprachelemente_jar</output-path>
-    <root id="archive" name="UebungenSprachelemente.jar">
-      <element id="module-output" name="UebungenSprachelemente" />
-    </root>
-  </artifact>
-</component>

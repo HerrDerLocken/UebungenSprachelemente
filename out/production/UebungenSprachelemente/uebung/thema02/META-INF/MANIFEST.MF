@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: uebung.thema02.aufgabe01.Main
+
