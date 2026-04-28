@@ -6,7 +6,7 @@ public class Main {
         int[] testZahlen = {7, 10, 13, 100};
 
         for (int z : testZahlen) {
-            System.out.println("Ist " + z + " prim? (Iterativ): " + aufgabe.isprime(2,z));
+            System.out.println("Ist " + z + " prim?: " + aufgabe.isprime(2,z));
             System.out.println("-");
         }
     }

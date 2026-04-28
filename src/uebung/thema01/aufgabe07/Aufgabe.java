@@ -22,18 +22,4 @@ public class Aufgabe {
         }
         return dezimal;
     }
-
-    public String konvertiereZuBasis(int zahl, int basis) {
-        if (zahl == 0) return "0";
-        StringBuilder ergebnis = new StringBuilder();
-
-        while (zahl > 0) {
-            int rest = zahl % basis;
-            // Für Basis > 10 Buchstaben verwenden
-            char zeichen = (char) (rest < 10 ? '0' + rest : 'A' + rest - 10);
-            ergebnis.insert(0, zeichen);
-            zahl = zahl / basis;
-        }
-        return ergebnis.toString();
-    }
 }

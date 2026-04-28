@@ -12,7 +12,7 @@ public class Aufgabe {
     }
 
     private boolean istFroehlich(int n) {
-        // Wiederhole bis wir 1 (fröhlich) oder 4 (traurig/Zyklus) erreichen
+        // Wiederhole bis 1 (fröhlich) oder 4 (traurig/Zyklus) erreicht
         while (n != 1 && n != 4) {
             int summe = 0;
             while (n > 0) {
